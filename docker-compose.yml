@@ -1,8 +1,8 @@
 version: '3'
 services:
-    iecClient:
+    testingVue:
         image: node:8.9
-        container_name: iecClient
+        container_name: testingVue
         restart: always
         ports:
          - "8080:8080"
